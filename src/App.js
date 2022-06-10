@@ -7,6 +7,7 @@ import ProductContextProvider from "./context/ProductContext";
 import MainRoutes from "./MainRoutes";
 
 const App = () => {
+  console.log("hello");
   return (
     <BrowserRouter>
       <AuthContextProvider>
