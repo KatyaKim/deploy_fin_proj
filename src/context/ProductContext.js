@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 
 export const productContext = createContext();
 
-const API = "http://https://deployhack1.herokuapp.com/api/products";
+const API = "https://deployhack1.herokuapp.com/api/products";
 
 const INIT_STATE = {
   products: [],
